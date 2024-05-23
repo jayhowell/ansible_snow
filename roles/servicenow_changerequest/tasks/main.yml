@@ -11,7 +11,7 @@
     state: new
     requested_by: admin
     short_description: Ticket created by the Ansible + RHACM integration.
-    description: Ticket created by the Ansible RHACM integration: + "{{ description }}"
+    description: "{{ description }}"
     risk: low
     impact: low
 
