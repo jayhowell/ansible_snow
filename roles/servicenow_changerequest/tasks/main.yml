@@ -11,8 +11,7 @@
     state: new
     requested_by: admin
     short_description: Ticket created by the Ansible + RHACM integration.
-    description: Ticket created by the Ansible + RHACM integration. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
-    priority: moderate
+    description: Ticket created by the Ansible RHACM integration: "{{ description }}"
     risk: low
     impact: low
 
