@@ -11,7 +11,7 @@
     state: new
     requested_by: admin
     description: This is the description
-    short_description: "Ticket created by the Ansible + RHACM integration. For application" + "{{ app_name }}"
+    short_description: "Ticket created by the Ansible + RHACM integration. For application: {{ app_name }}"
     risk: low
     impact: low
 
