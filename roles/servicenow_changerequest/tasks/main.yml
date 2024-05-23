@@ -10,7 +10,7 @@
     type: standard
     state: new
     requested_by: admin
-    description: "{{ change_request.description }}"
+    description: " {{ change_request.description }} : {{change_request.justification}} "
     short_description: "Ticket created by the Ansible + RHACM integration. For application: {{ app_name }}"
     risk: low
     impact: low
