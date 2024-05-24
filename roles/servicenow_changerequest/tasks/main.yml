@@ -1,5 +1,8 @@
 ---
 # tasks file for snow-acm
+- name: Pause until you can verify updates to an application were successful
+  ansible.builtin.pause:
+  
 - name: Create change request
   servicenow.itsm.change_request:
     instance:
